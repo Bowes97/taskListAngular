@@ -1,0 +1,26 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+input:nth-child(1){
+    width: 70%;
+}
+input:nth-child(2){
+    width: 29%;
+}
+.table{
+    margin: 2% 0;
+}
+td{
+    padding: 8px 0 !important;
+}
+.checkbox{
+    width: 10% !important;
+}
+td:nth-of-type(1){
+    font-weight: bold;
+}

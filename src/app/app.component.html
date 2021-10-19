@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Plan your day!</h1>
+  <h2>User: Ivan Ivanov. Count of Task {{ newArray.length}}</h2>
+  <hr>
+  <form name="f1">
+    <input type="text" name="newText" id="" [(ngModel)]="newText">
+    <input type="button" name="" id="" value="add" class="btn btn-success" (click)="sendTask()">
+  </form>
+  <hr>
+  <app-task-list (myArray)="getArray($event)"></app-task-list>
+</div>
